@@ -2,34 +2,39 @@ import React from 'react'
 import './App.css'
 import Stories from 'react-insta-stories'
 import data from './data/day-data.json'
+import moment from 'moment'
 
 function App() {
   const [showStory, setShowStory] = React.useState(false)
   const [showAllStories, setShowAllStories] = React.useState(false)
   const [stories, setStories] = React.useState()
-  var dayArr = Array.apply(null, { length: 30 }).map(Number.call, Number)
+  var dayArr = Array.apply(null, { length: 31 }).map(Number.call, Number)
 
   const backToHome = () => {
     setShowStory(false)
     setShowAllStories(false)
   }
 
+  const calculateDay = () => {
+    let startDay = moment('05-22-2023', 'MM-DD-YYYY')
+    return moment().diff(startDay, 'days')
+  }
+
   const goToStory = (daySelected) => {
-    let day = daySelected || 0 // TODO: Calculate day
-    console.log(day)
+    let day = daySelected || calculateDay() 
     if (data.dayData[day]) {
       setShowStory(true)
       let storiesArr = [
         {
-          content: ({ }) => {
+          content: () => {
             return (
-
               <div className="m-auto story-page" style={{ background: "linear-gradient(180deg, rgba(242,192,255,1) 19%, rgba(176,82,193,1) 98%)" }}>
                 <div className="text">
                   {`Today, let's remember when you were ${day === 0 ? 'born' : `${day} ${day === 1 ? 'year old' : 'years old'}`}. 
                  ${day === 0 ? '' : 'Picture yourself at that age. '}`}
                   Think about someone you've come to love and appreciate more since then.
                 </div>
+                <button className="home-btn" onClick={backToHome}><i className="fa fa-home" /></button>
               </div>
             )
           }
@@ -41,6 +46,7 @@ function App() {
                 <div className="text text-center">
                   Many people love and appreciate you for who you are! For example...
                 </div>
+                <button className="home-btn" onClick={backToHome}><i className="fa fa-home" /></button>
               </div>
             )
           }
@@ -86,7 +92,7 @@ function App() {
       setStories(storiesArr)
     }
   }
-  console.log('showStory', showStory)
+
   return (
     <div>
       {!showStory && !showAllStories ?
@@ -116,8 +122,7 @@ function App() {
                 dayArr.map((d) => {
                   return (
                     <>
-                    {/* TODO: DISABLE THIS BUTTON IF WE HAVENT REACHED IT YET!! */}
-                      <button onClick={() => goToStory(d)} className="box">
+                      <button onClick={() => goToStory(d)} className={`box ${d > calculateDay() ? 'disabled' : ''}`}>
                         {d}
                       </button>
 

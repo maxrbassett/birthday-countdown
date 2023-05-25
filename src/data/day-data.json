@@ -63,10 +63,14 @@
             ]
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018650/30til30/Greg_Karla_Cole_dmjlmb.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018659/30til30/Kandy_pkcchx.mp4"
+            ],
             "day": 7,
             "names": [
-              "Greg and Carla",
+              "Greg, Karla, and Cole",
+              "Kandy",
               "Bert and Ashley"
             ]
           },
@@ -89,9 +93,12 @@
             ]
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018705/30til30/Haley_yjtb5d.mp4"
+            ],
             "day": 10,
             "names": [
+              "Haley",
               "Elyse",
               "Elise"
             ]
@@ -183,7 +190,9 @@
             ]
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018427/30til30/Janey_icnmui.mp4"
+            ],
             "day": 21,
             "names": [
               "Janey",
@@ -204,7 +213,9 @@
             ]
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018441/30til30/Alyssa_urizfq.mp4"
+            ],
             "day": 23,
             "names": [
               "Alyssa",
@@ -228,11 +239,12 @@
             ]
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018588/30til30/Doug_and_Sandra_g9xl4g.mp4"
+            ],
             "day": 26,
             "names": [
-              "Sandra",
-              "Doug"
+              "Sandra and Doug"
             ]
           },
           {

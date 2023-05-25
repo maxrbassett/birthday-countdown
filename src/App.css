@@ -46,9 +46,11 @@
   z-index: 1000;
   color: #5937a8;
   border-radius: 5px;
-  padding: 8px;
-  /* border: 4px solid #222; */
-  border: none;
+  padding: 5px;
+  width: 200px;
+  margin: 10px 0px;
+  border: 4px solid #5937a8;
+  /* border: none; */
   background-color: transparent;
   font-size: 25px;
 }
@@ -76,13 +78,31 @@
   display: flex;
   flex-flow: row wrap;
   position: relative;
+  padding-top: 15px;
 }
+
 .box {
   margin: 6px;
   flex: 0 1 calc(20% - 12px); /* <-- adjusting for margin */
-  border: 5px solid #222;
+  border: none;
   border-radius: 5px;
   text-align: center;
   font-size: 21px;
   font-weight: bold;
+  background-color: white;
+}
+
+.box.disabled {
+  opacity: .15;
+}
+
+.home-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+  border: none;
+  color: #222;
+  font-size: 30px;
+  z-index: 1000;
+  background-color: transparent;
 }
