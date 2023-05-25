@@ -16,7 +16,7 @@ function App() {
   }
 
   const calculateDay = () => {
-    let startDay = moment('05-22-2023', 'MM-DD-YYYY')
+    let startDay = moment('05-01-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
     return moment().diff(startDay, 'days')
   }
 
@@ -113,6 +113,8 @@ function App() {
             <Stories
               defaultInterval={120000}
               stories={stories}
+              width={"100%"}
+              height={"100%"}
             />
           </div>
           :
