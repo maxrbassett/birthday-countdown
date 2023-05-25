@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.home-page {
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(180deg, rgb(249, 252, 82) 19%, rgb(255, 207, 51) 98%);
+}
+
+.home-page .btn-container {
+  align-self: center;
+}
+
+.welcome {
+  font-size: 50px;
+}
+
+.you-are-loved {
+  font-size: 35px;
+}
+
+.title.main {
+  font-size: 200px;
+}
+
+.title.sub {
+  font-size: 40px;
+}
+
+.whole-title {
+  line-height: 120px;
+  border-bottom: 10px solid #222;
+  color: #222;
+}
+
+.title,
+.btn-container button {
+  font-weight: bold;
+  font-family: cursive;
+  text-align: center;
+}
+
+.btn-container button {
+  position: relative;
+  z-index: 1000;
+  color: #5937a8;
+  border-radius: 5px;
+  padding: 8px;
+  /* border: 4px solid #222; */
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.story-page {
+  display: flex;
+  height: 106vh;
+}
+
+.story-page .text {
+  align-self: center;
+  padding: 0px 25px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #222;
+}
+
+.all-stories-container {
+  background: linear-gradient(180deg, rgba(107,140,255,1) 19%, rgba(17,232,201,1)  98%);
+  height: 100vh; /* height given for illustration */
+}
+.all-stories {
+  width: 350px;
+  height: 80vh;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+.box {
+  margin: 6px;
+  flex: 0 1 calc(20% - 12px); /* <-- adjusting for margin */
+  border: 5px solid #222;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
