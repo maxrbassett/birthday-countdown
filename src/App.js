@@ -132,7 +132,7 @@ function App() {
               }
             </div>
             <div className="text-center btn-container mt-3">
-            <button onClick={backToHome}>Back to Home</button>
+              <button onClick={backToHome}>Back to Home</button>
             </div>
           </div>
       }
