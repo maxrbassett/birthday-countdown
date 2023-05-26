@@ -3,7 +3,7 @@
 }
 
 .home-page {
-  height: 90vh;
+  height: 91vh;
   display: flex;
   background: linear-gradient(180deg, rgb(249, 252, 82) 19%, rgb(255, 207, 51) 98%);
 }
