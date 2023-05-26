@@ -16,12 +16,12 @@ function App() {
   }
 
   const calculateDay = () => {
-    let startDay = moment('05-25-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
+    let startDay = moment('05-14-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
     return moment().diff(startDay, 'days')
   }
 
   const goToStory = (daySelected) => {
-    let day = daySelected || calculateDay() 
+    let day = daySelected || (daySelected === 0 ? 0 : calculateDay()) 
     if (data.dayData[day]) {
       setShowStory(true)
       let storiesArr = [
@@ -30,8 +30,8 @@ function App() {
             return (
               <div className="m-auto story-page" style={{ background: "linear-gradient(180deg, rgba(242,192,255,1) 19%, rgba(176,82,193,1) 98%)" }}>
                 <div className="text">
-                  {`Today, let's remember when you were ${day === 0 ? 'born' : `${day} ${day === 1 ? 'year old' : 'years old'}`}. 
-                 ${day === 0 ? '' : 'Picture yourself at that age. '}`}
+                  {`Today, let's remember ${data.dayData[day].remembering}.
+                 ${day === 0 ? '' : 'Picture yourself around that time. '}`}
                   Think about someone you've come to love and appreciate more since then.
                 </div>
                 <button className="home-btn" onClick={backToHome}><i className="fa fa-home" /></button>
@@ -63,7 +63,7 @@ function App() {
             return (
               <div className="m-auto story-page" style={{ background: "linear-gradient(180deg, rgba(159,255,241,1) 19%, rgba(107,219,255,1) 98%)" }}>
                 <div className='text'>
-                  <div className="text-center you-are-loved">YOU ARE LOVED&#10084;</div>
+                  <div className="you-are-loved">YOU ARE LOVED&#10084;</div>
                   Challenge: Take some time to reach out to each of these people and say hello!
                   <div className="text-center btn-container mt-5">
                     <button onClick={backToHome}>Back to Home</button>

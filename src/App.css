@@ -74,6 +74,8 @@
 .story-page .text {
   align-self: center;
   padding: 0px 25px;
+  position: relative;
+  bottom: 50px;
   font-weight: bold;
   font-size: 25px;
   color: #222;
