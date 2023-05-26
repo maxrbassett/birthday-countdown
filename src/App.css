@@ -3,7 +3,7 @@
 }
 
 .home-page {
-  height: 95vh;
+  height: 90vh;
   display: flex;
   background: linear-gradient(180deg, rgb(249, 252, 82) 19%, rgb(255, 207, 51) 98%);
 }
@@ -30,7 +30,7 @@
 
 .whole-title {
   font-weight: bold;
-  border-bottom: 10px solid #2a6592;
+  /* border-bottom: 5px solid #2a6592; */
   color: #2a6592;
 }
 
@@ -41,7 +41,9 @@
 }
 
 .icon {
-  font-size: 50px;
+  font-size: 100px;
+  color: #2a6592;
+
 }
 
 .title,
@@ -53,12 +55,12 @@
 .btn-container button {
   position: relative;
   z-index: 1000;
-  color: #303030;
+  color: #2a6592;
   border-radius: 5px;
   padding: 5px;
   width: 200px;
   margin: 10px 0px;
-  border: 2px solid #222;
+  border: 2px solid #2a6592;
   /* border: none; */
   background-color: transparent;
   font-size: 25px;
@@ -66,7 +68,7 @@
 
 .story-page {
   display: flex;
-  height: 101vh;
+  height: 95vh;
 }
 
 .story-page .text {
@@ -79,11 +81,11 @@
 
 .all-stories-container {
   background: linear-gradient(180deg, rgba(107,140,255,1) 19%, rgba(17,232,201,1)  98%);
-  height: 95vh; /* height given for illustration */
+  height: 90vh; /* height given for illustration */
 }
 .all-stories {
   width: 100%;
-  height: 75vh;
+  height: 70vh;
   display: flex;
   flex-flow: row wrap;
   position: relative;

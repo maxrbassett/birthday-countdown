@@ -16,7 +16,7 @@ function App() {
   }
 
   const calculateDay = () => {
-    let startDay = moment('05-01-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
+    let startDay = moment('05-25-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
     return moment().diff(startDay, 'days')
   }
 
@@ -100,14 +100,16 @@ function App() {
           <div className='btn-container m-auto'>
             <div className="whole-title">
               <div className="small-line-height">
-              <div className="title main">30 </div>
-              <div className="title sub">Days to 30</div>
+                <div className="title main">30 </div>
+                <div className="title sub">Days to 30</div>
               </div>
-              <div className="icon text-center"><i className="fa fa-birthday-cake"></i></div>
             </div>
+              <div className="icon text-center"><i className="fa fa-birthday-cake"></i></div>
             <div className="text-center mt-2">
               <div><button onClick={() => goToStory()}>Today's Story</button></div>
-              <div><button onClick={() => setShowAllStories(true)}>All Stories</button></div>
+              {calculateDay() > 0 &&
+                <div><button onClick={() => setShowAllStories(true)}>All Stories</button></div>
+              }
             </div>
           </div>
         </div>
