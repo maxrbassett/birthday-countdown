@@ -3,7 +3,7 @@
 }
 
 .home-page {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   background: linear-gradient(180deg, rgb(249, 252, 82) 19%, rgb(255, 207, 51) 98%);
 }
@@ -29,14 +29,23 @@
 }
 
 .whole-title {
+  font-weight: bold;
+  border-bottom: 10px solid #2a6592;
+  color: #2a6592;
+}
+
+.small-line-height {
   line-height: 120px;
-  border-bottom: 10px solid #222;
-  color: #222;
+  position: relative;
+  top: 33px;
+}
+
+.icon {
+  font-size: 50px;
 }
 
 .title,
 .btn-container button {
-  font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
 }
@@ -44,12 +53,12 @@
 .btn-container button {
   position: relative;
   z-index: 1000;
-  color: #5937a8;
+  color: #303030;
   border-radius: 5px;
   padding: 5px;
   width: 200px;
   margin: 10px 0px;
-  border: 4px solid #5937a8;
+  border: 2px solid #222;
   /* border: none; */
   background-color: transparent;
   font-size: 25px;
@@ -57,7 +66,7 @@
 
 .story-page {
   display: flex;
-  height: 106vh;
+  height: 101vh;
 }
 
 .story-page .text {
@@ -70,11 +79,11 @@
 
 .all-stories-container {
   background: linear-gradient(180deg, rgba(107,140,255,1) 19%, rgba(17,232,201,1)  98%);
-  height: 100vh; /* height given for illustration */
+  height: 95vh; /* height given for illustration */
 }
 .all-stories {
-  width: 350px;
-  height: 80vh;
+  width: 100%;
+  height: 75vh;
   display: flex;
   flex-flow: row wrap;
   position: relative;
@@ -83,12 +92,12 @@
 
 .box {
   margin: 6px;
-  flex: 0 1 calc(20% - 12px); /* <-- adjusting for margin */
   border: none;
   border-radius: 5px;
   text-align: center;
   font-size: 21px;
   font-weight: bold;
+  width: 72px;
   background-color: white;
 }
 
