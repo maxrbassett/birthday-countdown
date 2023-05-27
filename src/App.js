@@ -65,7 +65,7 @@ function App() {
               <div className="m-auto story-page" style={{ background: "linear-gradient(180deg, rgba(159,255,241,1) 19%, rgba(107,219,255,1) 98%)" }}>
                 <div className='text'>
                   <div className="you-are-loved">YOU ARE LOVED&#10084;</div>
-                  Challenge: Take some time to reach out to each of these people and say hello!
+                  Take some time to reach out to each of these people and say hello!
                   <div className="text-center btn-container mt-5">
                     <button onClick={backToHome}>Back to Home</button>
                   </div>
