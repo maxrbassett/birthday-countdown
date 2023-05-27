@@ -16,7 +16,7 @@ function App() {
   }
 
   const calculateDay = () => {
-    let startDay = moment('04-01-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
+    let startDay = moment('04-26-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
     return moment().diff(startDay, 'days')
   }
 
@@ -76,6 +76,12 @@ function App() {
         }
       ]
       if (day === 0) {
+        storiesArr.unshift({
+          url: "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685154161/30til30/MaxIntro_icou7y.mp4",
+          type: 'video',
+          header: { heading: "Intro" },
+          styles: { minHeight: '777px'}
+        })
         storiesArr.unshift({
           content: () => {
             return (

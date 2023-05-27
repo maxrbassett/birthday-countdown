@@ -1,14 +1,13 @@
 {
     "dayData": [
         {
-            "videos": ["https://res.cloudinary.com/dt2yq6ezw/video/upload/v1684884950/30til30/Janey_xrnxaw.mov", "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1684884950/30til30/Alyssa_wrpnjm.mov", "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1684884950/30til30/Janey_xrnxaw.mov"],
+            "videos": [],
             "day": 0,
             "names": [
-              "Max",
               "Mom",
               "Dad"
             ],
-            "remembering": "your childhood"
+            "remembering": "the day you were born"
           },
           {
             "videos": [],
