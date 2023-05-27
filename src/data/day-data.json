@@ -152,7 +152,7 @@
             "remembering": "your post mission days"
           },
           {
-            "videos": [],
+            "videos": ["https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685153251/30til30/Max_glujze.mp4"],
             "day": 15,
             "names": [
               "Max",
@@ -257,7 +257,7 @@
             "remembering": "your early years as a mom"
           },
           {
-            "videos": [],
+            "videos": ["", "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685151443/30til30/Caroline_qldmzp.mp4"],
             "day": 25,
             "names": [
               "Katherine",

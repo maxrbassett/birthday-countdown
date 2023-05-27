@@ -71,6 +71,10 @@
   height: 95vh;
 }
 
+video {
+  min-height: 777px !important;
+}
+
 .story-page .text {
   align-self: center;
   padding: 0px 25px;

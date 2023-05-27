@@ -16,7 +16,7 @@ function App() {
   }
 
   const calculateDay = () => {
-    let startDay = moment('05-14-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
+    let startDay = moment('04-01-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
     return moment().diff(startDay, 'days')
   }
 
@@ -55,7 +55,8 @@ function App() {
           return {
             url,
             type: 'video',
-            header: { heading: data.dayData[day].names[ind] || '' }
+            header: { heading: data.dayData[day].names[ind] || '' },
+            styles: { minHeight: '777px'}
           }
         }),
         {
@@ -120,6 +121,7 @@ function App() {
               stories={stories}
               width={"100%"}
               height={"100%"}
+              storyContainerStyles={{minHeight: "777px"}}
             />
           </div>
           :
