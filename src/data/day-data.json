@@ -1,7 +1,7 @@
 {
     "dayData": [
         {
-            "videos": [],
+            "videos": ["https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018441/30til30/Alyssa_urizfq.mp4"],
             "day": 0,
             "names": [
               "Mom",
