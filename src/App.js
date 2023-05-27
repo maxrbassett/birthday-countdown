@@ -119,6 +119,7 @@ function App() {
               }
             </div>
           </div>
+            <button className="refresh-btn" onClick={() => window.location.reload()}><i className="fa fa-refresh" /></button>
         </div>
         : showStory ?
           <div className="story">

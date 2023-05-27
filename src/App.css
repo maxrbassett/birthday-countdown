@@ -3,7 +3,7 @@
 }
 
 .home-page {
-  height: 91vh;
+  height: 100vh;
   display: flex;
   background: linear-gradient(180deg, rgb(249, 252, 82) 19%, rgb(255, 207, 51) 98%);
 }
@@ -68,11 +68,11 @@
 
 .story-page {
   display: flex;
-  height: 95vh;
+  height: 100vh;
 }
 
 video {
-  min-height: 777px;
+  min-height: 777px !important;
 }
 
 .story-page .text {
@@ -87,11 +87,11 @@ video {
 
 .all-stories-container {
   background: linear-gradient(180deg, rgba(107,140,255,1) 19%, rgba(17,232,201,1)  98%);
-  height: 90vh; /* height given for illustration */
+  height: 100vh; /* height given for illustration */
 }
 .all-stories {
   width: 100%;
-  height: 70vh;
+  height: 85vh;
   display: flex;
   flex-flow: row wrap;
   position: relative;
@@ -113,7 +113,8 @@ video {
   opacity: .15;
 }
 
-.home-btn {
+.home-btn,
+.refresh-btn {
   position: absolute;
   bottom: 40px;
   right: 10px;
@@ -122,4 +123,9 @@ video {
   font-size: 30px;
   z-index: 1000;
   background-color: transparent;
+}
+.refresh-btn {
+  color: #2a6592;
+  right: 20px;
+  font-size: 30px;
 }
