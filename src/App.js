@@ -43,7 +43,7 @@ function App() {
           content: () => {
             return (
               <div className="m-auto story-page" style={{ background: "linear-gradient(180deg, rgba(254,197,197,1) 19%, rgba(255,189,107,1) 98%)" }}>
-                <div className="text text-center">
+                <div className="text">
                   Many people love and appreciate you for who you are! For example...
                 </div>
                 <button className="home-btn" onClick={backToHome}><i className="fa fa-home" /></button>
