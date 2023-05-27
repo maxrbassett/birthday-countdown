@@ -3,7 +3,7 @@
 }
 
 .home-page {
-  height: 100vh;
+  height: 91vh;
   display: flex;
   background: linear-gradient(180deg, rgb(249, 252, 82) 19%, rgb(255, 207, 51) 98%);
 }
@@ -68,11 +68,11 @@
 
 .story-page {
   display: flex;
-  height: 104vh;
+  height: 95vh;
 }
 
 video {
-  min-height: 777px !important;
+  min-height: 777px;
 }
 
 .story-page .text {
@@ -87,11 +87,11 @@ video {
 
 .all-stories-container {
   background: linear-gradient(180deg, rgba(107,140,255,1) 19%, rgba(17,232,201,1)  98%);
-  height: 100vh; /* height given for illustration */
+  height: 90vh; /* height given for illustration */
 }
 .all-stories {
   width: 100%;
-  height: 85vh;
+  height: 70vh;
   display: flex;
   flex-flow: row wrap;
   position: relative;
