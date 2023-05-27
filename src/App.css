@@ -72,7 +72,7 @@
 }
 
 video {
-  min-height: 777px !important;
+  min-height: 100vh !important;
 }
 
 .story-page .text {
