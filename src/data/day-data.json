@@ -34,21 +34,23 @@
           },
           {
             "videos": [
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408821/30til30/Marma_r8fm8r.mp4"
             ],
             "day": 3,
             "names": [
-              "Marma",
+              "Clark",
               "Grandy"
             ],
             "remembering": "your childhood"
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408821/30til30/Marma_r8fm8r.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535105/30til30/KarenAndCam_yzudmd.mp4"
+            ],
             "day": 4,
             "names": [
-              "Karen",
-              "Cam"
+              "Marma",
+              "Karen and Cam"
             ],
             "remembering": "your childhood"
           },
@@ -62,11 +64,14 @@
             "remembering": "your childhood"
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535119/30til30/TomAndBetsy_kdv3x6.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535123/30til30/Claire_qpmk9d.mp4"
+            ],
             "day": 6,
             "names": [
-              "Tom",
-              "Betsy"
+              "Tom and Betsy",
+              "Claire"
             ],
             "remembering": "your childhood"
           },
@@ -87,7 +92,8 @@
           {
             "videos": [
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685407577/30til30/Alisa_s93chv.mp4",
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685407833/30til30/Autumn_n8t0g8.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685407833/30til30/Autumn_n8t0g8.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535114/30til30/AngiWood_e2oitk.mp4"
           ],
             "day": 8,
             "names": [
@@ -112,11 +118,13 @@
           },
           {
             "videos": [
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018705/30til30/Haley_yjtb5d.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535357/Hailey2_1_bxuiod.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535111/30til30/Makenda_gfljs9.mp4"
             ],
             "day": 10,
             "names": [
-              "Haley",
+              "Hailey",
+              "Makenda",
               "Elyse",
               "Elise"
             ],
@@ -126,6 +134,15 @@
             "videos": [],
             "day": 11,
             "names": [
+              "Elyse",
+              "Elise"
+            ],
+            "remembering": "your early college days"
+          },
+          {
+            "videos": [],
+            "day": 12,
+            "names": [
               "President Tanner",
               "Sister Tanner"
             ],
@@ -133,7 +150,7 @@
           },
           {
             "videos": [],
-            "day": 12,
+            "day": 13,
             "names": [
               "Sister Sontello",
               "Sister Tobon"
@@ -142,10 +159,11 @@
           },
           {
             "videos": [
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408809/30til30/Kim_wom8au.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408809/30til30/Kim_wom8au.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535122/30til30/LexiW_qlxhnu.mp4"
 
             ],
-            "day": 13,
+            "day": 14,
             "names": [
               "Kim",
               "Lexi"
@@ -158,7 +176,7 @@
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408822/30til30/Kami_sfw9lp.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408824/30til30/Kennedy_mslfmr.mp4"
             ],
-            "day": 14,
+            "day": 15,
             "names": [
               "Mercedes",
               "Kami",
@@ -168,7 +186,7 @@
           },
           {
             "videos": ["https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685153251/30til30/Max_glujze.mp4"],
-            "day": 15,
+            "day": 16,
             "names": [
               "Max",
               "Hallie",
@@ -178,10 +196,10 @@
           },
           {
             "videos": [
-              "",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535113/30til30/MomB_bi8lfm.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408818/30til30/Dad_B_qc8gnv.mp4"
             ],
-            "day": 16,
+            "day": 17,
             "names": [
               "Mom",
               "Dad"
@@ -189,24 +207,19 @@
             "remembering": "your early married life"
           },
           {
-            "videos": [],
-            "day": 17,
+            "videos": [
+              "",
+              "",
+              "",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535109/30til30/Ben_kz7h7s.mp4",
+              "",
+              "",
+              ""
+            ],
+            "day": 18,
             "names": [
               "Blaine",
-              "Kristi"
-            ],
-            "remembering": "your early married life"
-          },
-          {
-            "videos": [],
-            "day": 18,
-            "names": "Gwen",
-            "remembering": "your early married life"
-          },
-          {
-            "videos": [],
-            "day": 19,
-            "names": [
+              "Kristi",
               "Gwen",
               "Ben",
               "Ivy",
@@ -218,13 +231,13 @@
             "videos": [
               "",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408830/30til30/Stef_noxdyk.mp4",
-              "",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535125/30til30/Bret_yttyld.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408813/30til30/Clay_e1v3m8.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408808/30til30/Ned_t2bblt.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408831/30til30/Sofie_fpdnhp.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408810/30til30/Mitt_dltwoe.mp4"
           ],
-            "day": 20,
+            "day": 19,
             "names": [
               "Nick",
               "Stef",
@@ -240,7 +253,7 @@
             "videos": [
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018427/30til30/Janey_icnmui.mp4"
             ],
-            "day": 21,
+            "day": 20,
             "names": [
               "Janey",
               "Warner",
@@ -257,7 +270,7 @@
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408816/30til30/Reed_dpko1m.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685408826/30til30/Leona_da2wzl.mp4"
             ],
-            "day": 22,
+            "day": 21,
             "names": [
               "Rosey",
               "Steve",
@@ -287,7 +300,10 @@
             "remembering": "your early years as a mom"
           },
           {
-            "videos": ["", "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685151443/30til30/Caroline_qldmzp.mp4"],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535115/30til30/Kath_tvbf05.mp4", 
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685151443/30til30/Caroline_qldmzp.mp4"
+            ],
             "day": 25,
             "names": [
               "Katherine",
@@ -306,7 +322,10 @@
             "remembering": "your early years as a mom"
           },
           {
-            "videos": [],
+            "videos": [
+              "",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535104/30til30/Whitney_usmlnl.mp4"
+            ],
             "day": 27,
             "names": [
               "Jess",
@@ -324,7 +343,9 @@
             "remembering": "the last few years"
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535105/30til30/Kristen_os7rqx.mp4"
+            ],
             "day": 29,
             "names": [
               "Kristen",

@@ -77,7 +77,7 @@ function App() {
       ]
       if (day === 0) {
         storiesArr.unshift({
-          url: "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685154161/30til30/MaxIntro_icou7y.mp4",
+          url: "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685460548/30til30/Max3_xl7t7m.mp4",
           type: 'video',
           header: { heading: "Intro" },
           styles: { minHeight: '777px'}
