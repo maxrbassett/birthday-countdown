@@ -16,7 +16,7 @@ function App() {
   }
 
   const calculateDay = () => {
-    let startDay = moment('04-26-2023', 'MM-DD-YYYY') // TODO: CHANGE THIS TO JUNE 1st!!!
+    let startDay = moment('06-01-2023', 'MM-DD-YYYY') 
     return moment().diff(startDay, 'days')
   }
 
