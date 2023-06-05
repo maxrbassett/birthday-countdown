@@ -66,6 +66,7 @@
           },
           {
             "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535105/30til30/KarenAndCam_yzudmd.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685731571/30til30/Maggie_kixwor.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685731611/30til30/NoraL_sqfkle.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685731531/30til30/Evie_eiykkj.mp4",
@@ -74,35 +75,34 @@
             ],
             "day": 5,
             "names": [
+              "Karen and Cam",
               "Maggie",
               "Norah",
               "Evie",
               "Hank",
               "Anne"
             ],
-            "remembering": "your childhood"
+            "remembering": "your growing up years"
           },
           {
             "videos": [
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535105/30til30/KarenAndCam_yzudmd.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685619513/30til30/JimAndDiane_lwxjte.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685407842/30til30/BertAndAshley_w0ayeh.mp4"
             ],
             "day": 6,
             "names": [
-              "Karen and Cam",
+              "Jim and Diane",
               "Bert and Ashley"
             ],
             "remembering": "your growing up years"
           },
           {
             "videos": [
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685619513/30til30/JimAndDiane_lwxjte.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535119/30til30/TomAndBetsy_kdv3x6.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535123/30til30/Claire_qpmk9d.mp4"
             ],
             "day": 7,
             "names": [
-              "Jim and Diane",
               "Tom and Betsy",
               "Claire"
             ],
