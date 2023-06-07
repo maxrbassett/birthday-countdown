@@ -122,11 +122,15 @@
           },
           {
             "videos": [
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685407808/30til30/Abbey_n2z0ym.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685407808/30til30/Abbey_n2z0ym.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686144285/30til30/MaryAndThom_gty1lx.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686143378/30til30/Ashley_shooting_gun_udwjid.mp4"
             ],
             "day": 9,
             "names": [
-              "Abbey"
+              "Abbey",
+              "Mary and Thom",
+              "Ash shooting the gun"
             ],
             "remembering": "your teenage years"
           },
@@ -179,22 +183,25 @@
             "remembering": "your early college days"
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686143444/30til30/JohnAndSueTanner_mrcb23.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686144033/30til30/Broadbents_1_ovrxi2.mp4"
+            ],
             "day": 14,
             "names": [
-              "President Tanner",
-              "Sister Tanner"
+              "President and Sister Tanner",
+              "President and Sister Broadbent"
             ],
             "remembering": "your mission"
           },
           {
             "videos": [
-              "",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686143075/30til30/Amanda_wlkkd6.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685562322/30til30/Melisa_n50axu.mp4"
             ],
             "day": 15,
             "names": [
-              "Sister Sontello",
+              "Amanda",
               "Melisa"
             ],
             "remembering": "your mission"
@@ -252,7 +259,7 @@
             "videos": [
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685562425/30til30/Blaine_1_mr5d60.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685619538/30til30/Kristi_v9hhse.mp4",
-              "",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686143435/30til30/Gwen_qz2rgl.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535109/30til30/Ben_kz7h7s.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685562481/30til30/Ivy_elzcw8.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685619649/30til30/Tess_iv3md4.mp4"
@@ -320,11 +327,13 @@
           },
           {
             "videos": [
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018441/30til30/Alyssa_urizfq.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018441/30til30/Alyssa_urizfq.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686143598/30til30/Collin_sey47a.mp4"
             ],
             "day": 24,
             "names": [
-              "Alyssa"
+              "Alyssa",
+              "Collin"
             ],
             "remembering": "your early married life"
           },
