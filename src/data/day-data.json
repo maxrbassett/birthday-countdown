@@ -399,13 +399,20 @@
             "remembering": "the last few years"
           },
           {
-            "videos": [],
+            "videos": [
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688137680/30til30/FInaleIntro_1_zajdo3.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688142760/30til30/Hallie_1_sqzhkz.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688137061/30til30/Bryson_pcrvfv.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688142887/30til30/Finale_oll5bu.mp4"
+            ],
             "day": 30,
             "names": [
-              "Hank",
-              "John"
+              "Finale Intro",
+              "Hallie",
+              "Bryson",
+              "Recap"
             ],
-            "remembering": "your goals to be more spiritual"
+            "remembering": "YOUR 30th BIRTHDAY!!!"
           }
     ]
 }
