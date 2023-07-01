@@ -328,12 +328,16 @@
           {
             "videos": [
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685018441/30til30/Alyssa_urizfq.mp4",
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686143598/30til30/Collin_sey47a.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1686143598/30til30/Collin_sey47a.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688234192/30til30/Jill_qdnp30.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688233665/30til30/Russ_xlybeb.mp4"
             ],
             "day": 24,
             "names": [
               "Alyssa",
-              "Collin"
+              "Collin",
+              "Jill",
+              "Russ"
             ],
             "remembering": "your early married life"
           },
@@ -351,16 +355,12 @@
           {
             "videos": [
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535115/30til30/Kath_tvbf05.mp4", 
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685151443/30til30/Caroline_qldmzp.mp4",
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688234192/30til30/Jill_qdnp30.mp4",
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688233665/30til30/Russ_xlybeb.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685151443/30til30/Caroline_qldmzp.mp4"
             ],
             "day": 26,
             "names": [
               "Katherine",
-              "Caroline",
-              "Jill",
-              "Russ"
+              "Caroline"
             ],
             "remembering": "your early years as a mom"
           },
@@ -407,7 +407,7 @@
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688137680/30til30/FInaleIntro_1_zajdo3.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688142760/30til30/Hallie_1_sqzhkz.mp4",
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688137061/30til30/Bryson_pcrvfv.mp4",
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688142887/30til30/Finale_oll5bu.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688235792/30til30/Finale4_hclwio.mp4"
             ],
             "day": 30,
             "names": [
