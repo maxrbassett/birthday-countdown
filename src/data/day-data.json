@@ -351,12 +351,16 @@
           {
             "videos": [
               "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685535115/30til30/Kath_tvbf05.mp4", 
-              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685151443/30til30/Caroline_qldmzp.mp4"
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1685151443/30til30/Caroline_qldmzp.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688234192/30til30/Jill_qdnp30.mp4",
+              "https://res.cloudinary.com/dt2yq6ezw/video/upload/v1688233665/30til30/Russ_xlybeb.mp4"
             ],
             "day": 26,
             "names": [
               "Katherine",
-              "Caroline"
+              "Caroline",
+              "Jill",
+              "Russ"
             ],
             "remembering": "your early years as a mom"
           },
